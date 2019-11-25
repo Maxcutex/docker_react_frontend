@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> 
-          come and see asfafdasdfsdafsdfasfasfasf  asfdsa 
+          come and see asfafdasdfsdafsdfasfasfasf 
         </p>
         <a
           className="App-link"
