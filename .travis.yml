@@ -9,5 +9,5 @@ before_install:
   - docker build -t maxcutex/docker_react_frontend -f Dockerfile.dev . 
 
 script:
-  - docker run maxcutex/docker_react_frontend npm test -- --coverage --watchAll=false
+  - docker run -e CI=true maxcutex/docker_react_frontend npm test -- --coverage --watchAll=false
     
